@@ -3,56 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ronit chugwani</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon_io.zip">
+    <title>Ronit Chugwani - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="top box">
-        <h1>
-            WELCOME TO MY UNIVERSE
-        </h1>
-        <p>
-            <h2>
-                <a href="css/about me.html">About Me</a>       <a href="css/contact.html">Contact </a>       <a href="css/projects.html">projects</a>
-            </h2>
-        </p>
-        
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <h2>Hello.</h2>
-          <p>"Hi, I'm Ronit Chugwani, Currently pursuing Computer Science Engineering."</p>
+    <header class="top-box">
+        <h1>PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="about me.html">About</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi, I'm Ronit Chugwani, a Computer Science Engineering student with a passion for web development and design. I enjoy creating clean, user-friendly websites and applications. My goal is to develop solutions that are both functional and visually appealing. I constantly strive to improve my skills and stay up-to-date with the latest trends in technology.</p>
+                <p>With experience in front-end development, WordPress programming, and graphic design, I have worked on a variety of projects, from personal portfolios to full-fledged e-commerce platforms. I'm excited to explore new challenges and grow as a developer.</p>
+            </div>
+            <div class="about-image">
+                <img src="images\image.jpg" alt="Ronit Chugwani">
+            </div>
         </div>
+      </section>
         <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <!-- <img src="images\pexels-pixabay-76969.jpg" alt="space_img"> -->
-            <h3>Designing and Development</h3>
-            <p>The design and development process should examine all the potential risks and hurdles you will need to overcome to get the product to market.</p>
-          </div>
-          <div class="skill-row">
-            <img class="" src="" alt="">
-            <h3>Programming language</h3>
-            <p>Proficient in Python, React, and Adobe Photoshop.</p>
-          </div>
-        </div>
+
+        <section id="portfolio">
+            <h2>My Skills.</h2>
+            <div class="portfolio-content">
+                <div class="my-col">
+                    <img src="images/wordpress.jpeg" alt="Wordpress Programmer">
+                    <div>
+                        <h3>Wordpress Programmer</h3>
+                        <p>Experienced in building and customizing WordPress websites.</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <img src="images\web dev.jpeg" alt="Web Development">
+                    <div>
+                        <h3>Web Development</h3>
+                        <p>Skilled in creating responsive and dynamic web applications.</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <img src="images/photoshop.jpeg" alt="Photoshop">
+                    <div>
+                        <h3>Photoshop</h3>
+                        <p>Proficient in designing and editing graphics with Photoshop.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>Feel free to reach out at ronitchugwani@gmail.com ."</h3>
-          <p></p>
-          <a class="btn" href="mailto:ronitchugwani@email.com">CONTACT ME</a>
-        </div>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-item">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio website showcasing my skills and projects.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Weather App</h3>
+                    <p>A weather forecasting web app built with React and OpenWeather API.</p>
+                </div>
+                <div class="project-item">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce platform with payment integration and user authentication.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input type="tel" placeholder="Your Phone">
+                <input type="submit" value="Send Message">
+            </form>
+            <h3>Feel free to reach out at ronitchugwani@gmail.com</h3>
+        </section>
+    </main>
+    <hr>
+    <footer>
+      <div class="footer-content">
+          <div class="footer-section">
+              <h3>About Me</h3>
+              <p>I'm Ronit Chugwani, a passionate web developer and designer. I specialize in creating user-friendly and responsive websites with a focus on performance and usability.</p>
+          </div>
+          
+          <div class="footer-section">
+              <h3>Contact Information</h3>
+              <ul>
+                  <li>Email: <a href="mailto:ronitchugwani@gmail.com">ronitchugwani@gmail.com</a></li>
+                  <li>Phone: <a href="tel:+1234567890">8669770700</a></li>
+                  <li>Location: India</li>
+              </ul>
+          </div>
+  
+          <div class="footer-section">
+              <h3>Follow Me</h3>
+              <ul class="social-links">
+                  <li><a href="https://www.linkedin.com/in/ronit-chugwani-9294a6287" target="_blank">LinkedIn</a></li>
+                  <li><a href="https://www.instagram.com/_.ronit29" target="_blank">Instagram</a></li>
+                  <li><a href="https://ronitchugwani.github.io/cv/" target="_blank">Portfolio</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-section">
+              <h3>Newsletter</h3>
+              <p>Stay updated with my latest projects and blog posts by subscribing to my newsletter.</p>
+              <form action="#" method="POST">
+                  <input type="email" placeholder="Enter your email" required>
+                  <button type="submit">Subscribe</button>
+              </form>
+          </div>
       </div>
       
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/in/ronit-chugwani-9294a6287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
-        <a class="footer-link" href="https://www.instagram.com/_.ronit29/profilecard/?igsh=MXd2eWg3NW83cGpqdQ==">Instagram</a>
-        <a class="footer-link" href="https://ronitchugwani.github.io/cv/">Website</a>
-        <p>© 2024 Ronit Chugwani</p>
+      <div class="footer-bottom">
+          <p>&copy; 2024 Ronit Chugwani | All Rights Reserved</p>
       </div>
+  </footer>
+  
 </body>
 </html>
